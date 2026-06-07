@@ -169,7 +169,7 @@ em { font-style: italic; color: var(--amber); }
 .venues { max-width: 1280px; margin: 0 auto; padding: 7rem 2.5rem; }
 .venues__head { text-align: center; margin-bottom: 4rem; }
 .venues__head h2 { font-size: clamp(2rem, 4vw, 3.2rem); }
-.venues__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.2rem; }
+.venues__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2.2rem; max-width: 800px; margin: 0 auto; }
 .venue { display: block; text-decoration: none; color: inherit; }
 .venue__img { aspect-ratio: 4/5; overflow: hidden; border-radius: 2px; margin-bottom: 1.6rem; }
 .venue__img img { transition: transform 0.7s ease; }
