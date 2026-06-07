@@ -8,6 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pilot — Ainslie, Canberra" />
+  <meta property="og:description" content="A restaurant that is truly us. Authentic hospitality in Ainslie since 2018." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&h=630&q=80" />
+  <meta property="og:url" content="https://sb98s58978-del.github.io/pilot-redesign/" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -41,7 +48,7 @@
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero__media">
-      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80" alt="Pilot dining room" />
+      <img loading="eager" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80" alt="Pilot dining room" />
       <div class="hero__overlay"></div>
     </div>
     <div class="hero__content">
@@ -77,16 +84,16 @@
       <p class="about__body">Most of all, it is about our love for food, fun, and great hospitality.</p>
     </div>
     <div class="about__grid">
-      <img class="reveal" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Plated dish" />
-      <img class="reveal" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80" alt="Dining detail" />
-      <img class="reveal" src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=900&q=80" alt="Wine pour" />
+      <img loading="lazy" class="reveal" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Plated dish" />
+      <img loading="lazy" class="reveal" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80" alt="Dining detail" />
+      <img loading="lazy" class="reveal" src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=900&q=80" alt="Wine pour" />
     </div>
   </section>
 
   <!-- MENU FEATURE -->
   <section class="feature" id="menu">
     <div class="feature__media">
-      <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?auto=format&fit=crop&w=1200&q=80" alt="Seasonal plate" />
+      <img loading="lazy" src="https://images.unsplash.com/photo-1592861956120-e524fc739696?auto=format&fit=crop&w=1200&q=80" alt="Seasonal plate" />
     </div>
     <div class="feature__text reveal">
       <p class="section-eyebrow">The Table</p>
@@ -100,23 +107,23 @@
   <section class="venues" id="venues">
     <div class="venues__head reveal">
       <p class="section-eyebrow">Our places</p>
-      <h2>Three rooms, one family.</h2>
+      <h2>From the same family.</h2>
     </div>
     <div class="venues__grid">
       <a class="venue reveal" href="https://www.instagram.com/thatotherplacecbr/" target="_blank" rel="noopener">
-        <div class="venue__img"><img src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=900&q=80" alt="That Other Place" /></div>
+        <div class="venue__img"><img loading="lazy" src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=900&q=80" alt="That Other Place" /></div>
         <h3>That Other Place</h3>
         <p>Our pop-up courtyard bar. Cocktails made with Canberra-region ingredients, oysters, and snacks. Walk in and find a seat.</p>
         <span class="venue__link">Visit on Instagram →</span>
       </a>
       <a class="venue reveal" href="https://andsuchandsuch.com/" target="_blank" rel="noopener">
-        <div class="venue__img"><img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=80" alt="Such and Such" /></div>
+        <div class="venue__img"><img loading="lazy" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=80" alt="Such and Such" /></div>
         <h3>Such and Such</h3>
         <p>Our second room in the city. Same care, a different mood, and one of Canberra's biggest wine lists.</p>
         <span class="venue__link">Visit the website →</span>
       </a>
       <article class="venue reveal">
-        <div class="venue__img"><img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80" alt="Stay Close" /></div>
+        <div class="venue__img"><img loading="lazy" src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=900&q=80" alt="Stay Close" /></div>
         <h3>Stay Close</h3>
         <p>Nearby accommodation for when the night runs long. Walk home in two minutes, not twenty.</p>
       </article>
@@ -189,6 +196,7 @@
     </div>
   </footer>
 
+  <div class="concept-badge">Concept design · not affiliated with Pilot</div>
   <script src="js/main.js"></script>
 </body>
 </html>
