@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menus & Information — Pilot</title>
+  <meta name="description" content="Pilot's tasting menus, beverages, dining times and booking information." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="reserve-page">
+
+  <!-- NAV -->
+  <header class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">PILOT</a>
+      <nav class="nav__links">
+        <a href="menu.html">Menu</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="gifts.html">Gifts</a>
+        <a href="index.html#venues">Venues</a>
+      </nav>
+      <a href="reserve.html" class="btn btn--ghost nav__cta">Reservations</a>
+      <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="menu.html">Menu</a>
+    <a href="drinks.html">Drinks</a>
+    <a href="gifts.html">Gifts</a>
+    <a href="index.html#venues">Venues</a>
+    <a href="reserve.html" class="btn btn--ghost">Reservations</a>
+  </div>
+
+  <main class="menu">
+    <div class="menu__head">
+      <p class="section-eyebrow">Ainslie · Canberra</p>
+      <h1>Menus &amp; Information</h1>
+      <p class="menu__sub">We have chosen to offer a tasting menu to all guests. What follows is a sample. Menus and pricing may change without notice. All public holidays incur a 15% surcharge.</p>
+    </div>
+
+    <!-- À LA CARTE (sample) -->
+    <section class="menu__section menu-doc">
+      <p class="menu-doc__label">A sample of the season</p>
+
+      <div class="menu-block">
+        <h3 class="menu-block__title">Snacks</h3>
+        <ul class="menu-list">
+          <li><span class="dish">Warm house bread, cultured butter</span><span class="price">9</span></li>
+          <li><span class="dish">Fried olives, lemon &amp; chilli</span><span class="price">12</span></li>
+          <li><span class="dish">Appellation OYSTERS, finger lime mignonette</span><span class="price">6 ea</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-block">
+        <h3 class="menu-block__title">To start</h3>
+        <ul class="menu-list">
+          <li><span class="dish">Murrumbateman TOMATOES, stracciatella, basil oil</span><span class="price">26</span></li>
+          <li><span class="dish">KINGFISH, green apple, native pepperberry</span><span class="price">28</span></li>
+          <li><span class="dish">Duck liver PARFAIT, brioche &amp; quince</span><span class="price">24</span></li>
+          <li><span class="dish">Charred LEEKS, almond, brown butter</span><span class="price">22</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-block">
+        <h3 class="menu-block__title">Larger</h3>
+        <ul class="menu-list">
+          <li><span class="dish">Murray COD, sea herbs, brown butter</span><span class="price">46</span></li>
+          <li><span class="dish">Dry-aged LAMB, smoked eggplant, jus</span><span class="price">44</span></li>
+          <li><span class="dish">Roast CABBAGE, miso &amp; hazelnut</span><span class="price">32</span></li>
+          <li><span class="dish">Spatchcock, native thyme, burnt honey</span><span class="price">42</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-block menu-block--last">
+        <h3 class="menu-block__title">Something sweet</h3>
+        <ul class="menu-list">
+          <li><span class="dish">Honey PARFAIT, native bee pollen</span><span class="price">18</span></li>
+          <li><span class="dish">Dark CHOCOLATE, olive oil &amp; sea salt</span><span class="price">19</span></li>
+          <li><span class="dish">Local CHEESE, lavosh &amp; muscatels</span><span class="price">24</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SET MENUS -->
+    <section class="menu__section">
+      <h2 class="menu__h2">Set menus</h2>
+      <div class="set-menus">
+        <article class="set-card">
+          <h3>The Pilot Menu</h3>
+          <p>Our signature seasonal tasting menu, drawn from the season and the region.</p>
+          <span class="set-card__meta">≈ 2 hours</span>
+          <span class="set-card__price">160 <small>per guest</small></span>
+        </article>
+        <article class="set-card">
+          <h3>The Extended Menu</h3>
+          <p>The full experience. More courses, more time, and the broadest range of dietary alternatives we offer.</p>
+          <span class="set-card__meta">≈ 2.5–3 hours</span>
+          <span class="set-card__price">205 <small>per guest</small></span>
+        </article>
+        <article class="set-card">
+          <h3>Lunch Set</h3>
+          <p>A relaxed weekend offering. A shorter set menu for an easy Saturday or Sunday afternoon.</p>
+          <span class="set-card__meta">≈ 1.5–2 hours · Sat–Sun</span>
+          <span class="set-card__price">120 <small>per guest</small></span>
+        </article>
+      </div>
+      <p class="set-menus__note">All guests at a table dine on the same menu. A minimum spend of $160 per person applies to Saturday evening reservations.</p>
+      <a href="reserve.html" class="btn btn--solid menu__cta">Make a reservation</a>
+    </section>
+
+    <!-- INFO ACCORDION -->
+    <section class="menu__section menu__section--info">
+      <h2 class="menu__h2">Good to know</h2>
+      <div class="accordion">
+
+        <details class="acc">
+          <summary>Food &amp; dietaries</summary>
+          <div class="acc__body">
+            <p>We offer a tasting menu and do not serve à la carte. All guests at a table dine on the same menu, however we cater to dietary needs by providing alternative dishes for the guests who require them.</p>
+            <p>Dietary requests can be catered to on the Pilot Menu and Lunch Set with a note in the last step of booking. Guests who require a no-seafood option will receive a vegetarian substitute.</p>
+            <p>The Extended Menu can cater to pescatarian, nut allergy, gluten free and coeliac, lactose free, pregnancy, no seafood and vegetarian. We may not always manage alternatives noted only on the day rather than at the time of booking. For private events we are happy to build a bespoke menu for an added cost.</p>
+          </div>
+        </details>
+
+        <details class="acc">
+          <summary>Beverages</summary>
+          <div class="acc__body">
+            <p>Everything we pour is Australian grown and made. Our list, by Kira Nelson, runs across wine, beer, spirits and aperitifs. The non-alcoholic and cocktail program by Tom Opie uses native ingredients, local produce and produce that would otherwise be waste.</p>
+            <p>Pairings are optional and a separate cost to the menu. They are a curated, slightly experimental selection chosen to ease alongside the food. You are welcome to change or skip a pairing on the day.</p>
+            <p>BYO is accepted for all services. On Thursday evenings we encourage BYO, with all corkage going to a chosen organisation for the month. Friday to Sunday corkage is $60 per bottle.</p>
+          </div>
+        </details>
+
+        <details class="acc">
+          <summary>Younger guests</summary>
+          <div class="acc__body">
+            <p>School-aged children are welcome but dine on a set menu. We are happy to arrange a shorter set menu for children up to 14. Guests 14 and over dine on our tasting menus.</p>
+            <p>Two courses $60 · Three courses $90 · Three courses with snacks $120.</p>
+            <p>A minimum spend of $160 per person applies to Saturday evening reservations and may include drinks for older guests. All other services have no minimum spend. Due to our size we cannot always fit prams and high chairs, so please reach out before booking.</p>
+          </div>
+        </details>
+
+        <details class="acc">
+          <summary>Dining times</summary>
+          <div class="acc__body">
+            <p>Dinner reservations run at 6:00pm, 6:15pm, 7:00pm, 7:30pm, 8:15pm and 8:30pm. Lunch runs from 12:00pm to 2:30pm, Saturday and Sunday.</p>
+            <p>Early sittings (Pilot Menu at 6:00–6:15pm, Lunch Set and Extended at 2:00–2:30pm) hold a two-hour table. Later bookings are welcome to stay as long as they like.</p>
+            <p>Approximate durations: Lunch Set 1.5–2 hours · Pilot Menu 2 hours · Extended Menu 2.5–3 hours. If you cannot find the time you want, reach out and we will see what we can do.</p>
+          </div>
+        </details>
+
+        <details class="acc">
+          <summary>Cancellation</summary>
+          <div class="acc__body">
+            <p>We are a small venue, so late cancellations and no-shows make it hard to operate sustainably. Card details secure a reservation. A fee of $160 per person may apply for cancellations, reductions in guest numbers, or no-shows within 48 hours. Outside 48 hours there is no charge.</p>
+            <p>For groups of six and over, the cancellation window ranges from 72 hours to one week depending on group size. If something comes up, reach out and we will do what we can.</p>
+          </div>
+        </details>
+
+        <details class="acc">
+          <summary>Getting here &amp; before your booking</summary>
+          <div class="acc__body">
+            <p>We are small and have no waiting area, so please do not arrive early in the cooler months. If you are in Ainslie early, a few options:</p>
+            <p><strong>That Other Place</strong> — our courtyard bar, open in the warmer months. <strong>Edgars Inn</strong> — on the corner of the Ainslie shops. <strong>Wakefield's Bar &amp; Wine</strong> — a moodier wine and cocktail bar just past our front door.</p>
+            <p>After dinner: <strong>Bar Rochford</strong> for the best list in town, <strong>Molly</strong> for a cosy dive, and more across the city depending on the mood.</p>
+          </div>
+        </details>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__ack">
+      We serve food and drinks on the lands of the Ngunnawal and Ngambri people, whose land and sovereignty was never ceded.
+    </div>
+    <div class="footer__base">
+      <span>© 2026 Pilot Restaurant</span>
+      <span>Mockup design</span>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+</body>
+</html>

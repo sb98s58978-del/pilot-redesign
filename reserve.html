@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservations — Pilot</title>
+  <meta name="description" content="Book a table at Pilot, Ainslie Canberra." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="reserve-page">
+
+  <!-- NAV -->
+  <header class="nav scrolled" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">PILOT</a>
+      <nav class="nav__links">
+        <a href="menu.html">Menu</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="gifts.html">Gifts</a>
+        <a href="index.html#venues">Venues</a>
+      </nav>
+      <a href="index.html" class="btn btn--ghost nav__cta">Back to site</a>
+      <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="menu.html">Menu</a>
+    <a href="drinks.html">Drinks</a>
+    <a href="gifts.html">Gifts</a>
+    <a href="index.html#venues">Venues</a>
+    <a href="index.html" class="btn btn--ghost">Back to site</a>
+  </div>
+
+  <main class="reserve">
+    <div class="reserve__head">
+      <p class="section-eyebrow">Ainslie · Canberra</p>
+      <h1>Reserve a table</h1>
+      <p class="reserve__sub">24-seat dining room. For groups of six or more, email <a href="mailto:we@pilotrestaurant.com">we@pilotrestaurant.com</a> directly.</p>
+    </div>
+
+    <!-- STEP 1: search -->
+    <section class="booking" id="step-search">
+      <div class="booking__controls">
+        <label class="field">
+          <span>Guests</span>
+          <select id="party">
+            <option value="1">1 guest</option>
+            <option value="2" selected>2 guests</option>
+            <option value="3">3 guests</option>
+            <option value="4">4 guests</option>
+            <option value="5">5 guests</option>
+            <option value="6">6 guests</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Date</span>
+          <input type="date" id="date" />
+        </label>
+        <button class="btn btn--solid booking__find" id="findBtn">Find a table</button>
+      </div>
+
+      <div class="booking__results" id="results" hidden>
+        <p class="booking__resultlabel" id="resultLabel"></p>
+        <div class="slots" id="slots"></div>
+        <p class="booking__none" id="noSlots" hidden>No tables online for that service. Try another date, or email us.</p>
+      </div>
+    </section>
+
+    <!-- STEP 2: details -->
+    <section class="details" id="step-details" hidden>
+      <button class="details__back" id="backBtn">← Change time</button>
+      <div class="details__summary" id="summary"></div>
+      <form class="details__form" id="resForm">
+        <div class="details__row">
+          <label class="field"><span>First name</span><input type="text" required /></label>
+          <label class="field"><span>Last name</span><input type="text" required /></label>
+        </div>
+        <div class="details__row">
+          <label class="field"><span>Email</span><input type="email" required /></label>
+          <label class="field"><span>Phone</span><input type="tel" required /></label>
+        </div>
+        <label class="field"><span>Special requests (optional)</span><textarea rows="3" placeholder="Allergies, occasion, seating preference"></textarea></label>
+        <button type="submit" class="btn btn--solid details__confirm">Complete reservation</button>
+        <p class="details__fineprint">By completing this reservation you agree to Pilot's booking terms. A card may be required to hold tables of six or more.</p>
+      </form>
+    </section>
+
+    <!-- STEP 3: confirmed -->
+    <section class="confirmed" id="step-confirmed" hidden>
+      <div class="confirmed__tick">✓</div>
+      <h2>You're booked.</h2>
+      <p class="confirmed__detail" id="confirmDetail"></p>
+      <p class="confirmed__note">A confirmation has been sent to your email. We can't wait to host you.</p>
+      <a href="index.html" class="btn btn--ghost">Back to site</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__ack">
+      We serve food and drinks on the lands of the Ngunnawal and Ngambri people, whose land and sovereignty was never ceded.
+    </div>
+    <div class="footer__base">
+      <span>© 2026 Pilot Restaurant</span>
+      <span>Mockup design</span>
+    </div>
+  </footer>
+
+  <script src="js/nav.js"></script>
+  <script src="js/reserve.js"></script>
+</body>
+</html>
