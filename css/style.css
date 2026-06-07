@@ -131,6 +131,10 @@ em { font-style: italic; color: var(--amber); }
   position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); z-index: 2;
   font-size: 0.68rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--cream-dim);
 }
+.top-tagline {
+  font-family: var(--serif); font-size: clamp(1.4rem, 3vw, 2.1rem);
+  line-height: 1.2; color: var(--cream); margin-bottom: 2.4rem; max-width: 540px;
+}
 
 /* ===== Info bar ===== */
 .infobar {

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>That Other Place — Pilot's courtyard bar</title>
+  <meta name="description" content="Pilot's pop-up courtyard bar in Ainslie. Cocktails, wine and fun, just without the walls." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="That Other Place — Pilot's courtyard bar" />
+  <meta property="og:description" content="Just like your favourite bar. Just without the walls. Cocktails, wine and fun in Pilot's Ainslie courtyard." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1533777324565-a040eb52facd?auto=format&fit=crop&w=1200&h=630&q=80" />
+  <meta property="og:url" content="https://sb98s58978-del.github.io/pilot-redesign/that-other-place.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">PILOT</a>
+      <nav class="nav__links">
+        <a href="menu.html">Menu</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="gifts.html">Gifts</a>
+        <a href="index.html#venues">Venues</a>
+      </nav>
+      <a href="reserve.html" class="btn btn--ghost nav__cta">Reservations</a>
+      <button class="nav__burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="menu.html">Menu</a>
+    <a href="drinks.html">Drinks</a>
+    <a href="gifts.html">Gifts</a>
+    <a href="index.html#venues">Venues</a>
+    <a href="reserve.html" class="btn btn--ghost">Reservations</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__media">
+      <img loading="eager" src="https://images.unsplash.com/photo-1533777324565-a040eb52facd?auto=format&fit=crop&w=1920&q=80" alt="That Other Place courtyard bar at night" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Pilot's courtyard bar · Ainslie</p>
+      <h1 class="hero__title">That Other Place</h1>
+      <p class="top-tagline">Just like your favourite bar.<br /><em>Just without the walls.</em></p>
+      <a href="#drinks" class="btn btn--solid">See the drinks</a>
+    </div>
+    <div class="hero__scroll">scroll</div>
+  </section>
+
+  <!-- INFO BAR -->
+  <section class="infobar">
+    <div class="infobar__item">
+      <span class="infobar__label">When</span>
+      <p>Thursday–Friday from 5pm<br />Saturday–Sunday from 12pm, all day</p>
+    </div>
+    <div class="infobar__item">
+      <span class="infobar__label">Where</span>
+      <p>The courtyard at Pilot<br />1 Wakefield Gardens, Ainslie</p>
+    </div>
+    <div class="infobar__item">
+      <span class="infobar__label">The deal</span>
+      <p>Outdoors, undercover, heated<br />Cocktails, wine &amp; fun</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="about__intro reveal">
+      <p class="section-eyebrow">Welcome, friends</p>
+      <h2 class="about__heading">We like to drink well, and drink <em>fun.</em></h2>
+      <p class="about__body">Fresh ingredients come from local growers, family and friends. The rest of each cocktail is built from produce that would otherwise be waste. We ferment, koji-fy, macerate and make vinegars to turn familiar flavours into something a little unfamiliar.</p>
+      <p class="about__body">Most of our drinks riff on simple classics, because that is what we enjoy. Not always. Come up to the bar and we will chat you through them, or build you a riff on a classic with whatever we have around. Looking to drink big? We can hand you the cellar list from Pilot.</p>
+      <p class="about__body">No kitchen out here. Bar snacks are on us, and you can order a pizza from Mama Dough next door while we set you up with plates and napkins. Bring a puffer in the cooler months, we have the heaters and the mulled wine.</p>
+    </div>
+  </section>
+
+  <!-- DRINKS -->
+  <main class="menu" id="drinks" style="padding-top:1rem;">
+    <div class="menu__head">
+      <p class="section-eyebrow">Cocktails and fun and wine</p>
+      <h2 style="font-size:clamp(2rem,5vw,3.2rem);">The list</h2>
+    </div>
+
+    <div class="drinks-doc">
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Cocktails</h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Banana Rizz</span><span class="drink__sub">Textural, herbaceous, low ABV · banana juice, basil, white choc, white wine</span></div><span class="price">18</span></li>
+          <li><div class="drink"><span class="drink__name">Simply Red</span><span class="drink__sub">Fizzy, juicy, red · Rhubi Mistelle, Naway Yila Budgera rosella tea, honey, citrus, Prosecco</span></div><span class="price">19</span></li>
+          <li><div class="drink"><span class="drink__name">ToPeador</span><span class="drink__sub">Refreshing, bright, zesty · Tromba blanco margarita, apricot, agave, passionfruit. Ask for it spicy</span></div><span class="price">21</span></li>
+          <li><div class="drink"><span class="drink__name">The Pepperjack &amp; Coke</span><span class="drink__sub">Refreshing, toasty, fizzy · Naway Yila Budgera pepperberry cola, Whipper Snapper corn whisky</span></div><span class="price">19</span></li>
+          <li><div class="drink"><span class="drink__name">I've been to Japan</span><span class="drink__sub">Creamy, fruity, trendy AF · matcha coconut colada, Husk rum, strawberry</span></div><span class="price">22</span></li>
+          <li><div class="drink"><span class="drink__name">Koji-tini</span><span class="drink__sub">Savoury, boozy, salty · dirty martini with olive koji, fino apera, gin, vermouth</span></div><span class="price">20</span></li>
+          <li><div class="drink"><span class="drink__name">I can't believe it's not Bourbon!</span><span class="drink__sub">Smokey, boozy, unctuous · Starward Two-Fold old fashioned, caramelised corn, muscat</span></div><span class="price">22</span></li>
+          <li><div class="drink"><span class="drink__name">Wax Lyrical</span><span class="drink__sub">Dry, tropical, bitter · Forty Spotted gin negroni, mango, Geraldton wax, Suze</span></div><span class="price">22</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Tins</h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Pagan Apple Cider 4.0%</span><span class="drink__sub">TAS [Melukerdee + Lyluequonny]</span></div><span class="price">10</span></li>
+          <li><div class="drink"><span class="drink__name">Hawke's Brewing Co. Lager 4.2%</span><span class="drink__sub">Marrickville, NSW [Gadigal]</span></div><span class="price">7</span></li>
+          <li><div class="drink"><span class="drink__name">Philter XPA 4.2%</span><span class="drink__sub">Marrickville, NSW [Gadigal]</span></div><span class="price">8</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Nons · 0%</h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Heaps Normal ‘Quiet XPA’ 0.5%</span><span class="drink__sub">Marrickville, NSW [Gadigal]</span></div><span class="price">6</span></li>
+          <li><div class="drink"><span class="drink__name">Even Simpler Red</span><span class="drink__sub">Naway Yila Budgera rosella tea, honey, passionfruit</span></div><span class="price">10</span></li>
+          <li><div class="drink"><span class="drink__name">PepperJack Cola</span><span class="drink__sub">Naway Yila Budgera pepperberry cola</span></div><span class="price">10</span></li>
+          <li><div class="drink"><span class="drink__name">Berry and Beans</span><span class="drink__sub">Strawberry, miso, tonka bean &amp; vanilla cream soda</span></div><span class="price">15</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Bubbly <small>glass / bottle</small></h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Billy Button Prosecco NV</span><span class="drink__sub">King Valley, VIC [Dhudhuroa + Jaithmathang]</span></div><span class="price">12 / 55</span></li>
+          <li><div class="drink"><span class="drink__name">Werkstatt Riesling 2025 · Pet Nat</span><span class="drink__sub">Mount Gambier, SA [Boandik]</span></div><span class="price">17 / 90</span></li>
+          <li><div class="drink"><span class="drink__name">North Wine ‘Crémant Cuvée’ 2023</span><span class="drink__sub">Macedon Ranges, VIC [Wurundjeri Woi Wurrung] · Méthode Traditional</span></div><span class="price">130</span></li>
+          <li><div class="drink"><span class="drink__name">Tampopo Lambrusco 2024</span><span class="drink__sub">Murray Darling, VIC [Ladji Ladji]</span></div><span class="price">90</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">White <small>glass / bottle</small></h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Intrepidus ‘Blanc de Gris’ 2025</span><span class="drink__sub">Gundagai, NSW [Wiradjuri] · Chenin Blanc + Pinot Gris</span></div><span class="price">13 / 65</span></li>
+          <li><div class="drink"><span class="drink__name">Ravensworth ‘Hilltops’ Fiano 2025</span><span class="drink__sub">Hilltops, NSW [Wiradjuri]</span></div><span class="price">15 / 75</span></li>
+          <li><div class="drink"><span class="drink__name">Manon Farm ‘Geoponika’ 2022</span><span class="drink__sub">Adelaide Hills, SA [Peramangk] · Chardonnay + Savagnin</span></div><span class="price">110</span></li>
+          <li><div class="drink"><span class="drink__name">Gentle Folk ‘Piccadilly’ Chardonnay 2023</span><span class="drink__sub">Adelaide Hills, SA [Kaurna]</span></div><span class="price">142</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Orange / skin contact <small>glass / bottle</small></h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Fin ‘Skins’ 2025</span><span class="drink__sub">Nagambie Lakes, VIC [Taungurung] · Vermentino, Garganega, Riesling, Arinto</span></div><span class="price">13 / 65</span></li>
+          <li><div class="drink"><span class="drink__name">Les Fruits ‘Peu de Peau’ Sauvignon Blanc 2024</span><span class="drink__sub">Adelaide Hills, SA [Kaurna]</span></div><span class="price">16 / 80</span></li>
+          <li><div class="drink"><span class="drink__name">Manon Farm ‘Selene’ Sauvignon Blanc 2021</span><span class="drink__sub">Adelaide Hills, SA [Peramangk]</span></div><span class="price">112</span></li>
+          <li><div class="drink"><span class="drink__name">Ruggabellus ‘Sallio’ 2018</span><span class="drink__sub">Barossa Valley, SA [Peramangk + Ngadjuri + Kaurna] · Riesling, Muscat, Semillon</span></div><span class="price">122</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Rosé <small>glass / bottle</small></h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Parley ‘Love Supreme’ 2024</span><span class="drink__sub">Adelaide Hills, SA [Kaurna] · Shiraz, Sauvignon Blanc, Chardonnay</span></div><span class="price">14 / 70</span></li>
+          <li><div class="drink"><span class="drink__name">Farr Rising ‘Saignée’ Pinot Noir 2025</span><span class="drink__sub">Geelong, VIC [Wadawurrung]</span></div><span class="price">105</span></li>
+          <li><div class="drink"><span class="drink__name">LVDO Syrah 2024</span><span class="drink__sub">McLaren Vale, SA [Kaurna]</span></div><span class="price">115</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block">
+        <h3 class="menu-block__title">Chilled red <small>glass / bottle</small></h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Aller Trop Loin ‘Saturdays’ 2025</span><span class="drink__sub">Bendigo, VIC [Dja Dja Wurrung + Taungurung] · Merlot + Pinot Noir</span></div><span class="price">16 / 80</span></li>
+        </ul>
+      </section>
+
+      <section class="menu-block menu-block--last">
+        <h3 class="menu-block__title">Red <small>glass / bottle</small></h3>
+        <ul class="drink-list">
+          <li><div class="drink"><span class="drink__name">Renzaglia Tempranillo + Graciano 2023</span><span class="drink__sub">Hilltops, NSW [Wiradjuri]</span></div><span class="price">13 / 65</span></li>
+          <li><div class="drink"><span class="drink__name">ECK Wines ‘No.2’ Cabernet Sauvignon 2021</span><span class="drink__sub">Heathcote, VIC [Taungurung]</span></div><span class="price">16 / 84</span></li>
+          <li><div class="drink"><span class="drink__name">Worlds Apart ‘Springton’ Syrah 2021</span><span class="drink__sub">Eden Valley, SA [Peramangk + Kaurna]</span></div><span class="price">19 / 98</span></li>
+          <li><div class="drink"><span class="drink__name">Stoney Rise Trousseau 2024</span><span class="drink__sub">Tamar Valley, TAS [Palawa]</span></div><span class="price">99</span></li>
+          <li><div class="drink"><span class="drink__name">Dr Edge ‘Pinot Rain’ Pinot Noir 2024</span><span class="drink__sub">Tamar Valley, TAS [Palawa]</span></div><span class="price">92</span></li>
+          <li><div class="drink"><span class="drink__name">Koerner ‘La Korse’ 2021</span><span class="drink__sub">Clare Valley, SA [Ngadjuri + Kaurna] · Sangiovese, Grenache, Sciacarello</span></div><span class="price">100</span></li>
+          <li><div class="drink"><span class="drink__name">Joshua Cooper ‘Balgownie 1970 Block’ Cabernet 2021</span><span class="drink__sub">Macedon Ranges, VIC [Wurundjeri Woi Wurrung]</span></div><span class="price">225</span></li>
+        </ul>
+      </section>
+
+      <p class="drinks-foot">Please only drink and eat what you can keep in. Tell us about any dietaries or allergies, as not all ingredients are listed. Card transactions incur a surcharge. Public holidays incur a 15% surcharge.</p>
+    </div>
+  </main>
+
+  <!-- BOOKINGS -->
+  <section class="visit" id="bookings">
+    <div class="visit__inner reveal">
+      <h2>Bookings &amp; events</h2>
+      <p>Walk in and try your luck, or book the courtyard for a group. We do food-and-drink packages with a minimum spend, or drinks-only space bookings. Tell us what you are after.</p>
+      <a href="mailto:we@pilotrestaurant.com?subject=That%20Other%20Place%20booking" class="btn btn--solid">Enquire about a booking</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <span class="footer__logo">PILOT</span>
+        <p>That Other Place<br />The courtyard at 1 Wakefield Gardens, Ainslie</p>
+      </div>
+      <div class="footer__col">
+        <span class="footer__label">Pilot</span>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="drinks.html">Drinks</a>
+        <a href="reserve.html">Reservations</a>
+      </div>
+      <div class="footer__col">
+        <span class="footer__label">Follow</span>
+        <a href="https://www.instagram.com/thatotherplacecbr/" target="_blank" rel="noopener">Instagram</a>
+        <a href="gifts.html">Gift vouchers</a>
+      </div>
+      <div class="footer__col footer__news">
+        <span class="footer__label">Hours</span>
+        <p>Thursday–Friday from 5pm<br />Saturday–Sunday from 12pm, all day</p>
+      </div>
+    </div>
+    <div class="footer__ack">
+      We serve food and drinks on the lands of the Ngunnawal and Ngambri people, whose land and sovereignty was never ceded.
+    </div>
+    <div class="footer__base">
+      <span>© 2026 Pilot Restaurant</span>
+      <span>Mockup design</span>
+    </div>
+  </footer>
+
+  <div class="concept-badge">Concept design · not affiliated with Pilot</div>
+  <script src="js/main.js"></script>
+</body>
+</html>
